@@ -22,12 +22,11 @@ REQUIREMENTS = [
     'django-multiupload>=0.5.1',
     'django-sortedm2m>=1.2.2',
     'django-admin-sortable2>=0.5.2',
-    'unidecode',
     'lxml',
     'pytz',
     'cssutils',
     'html5lib<=0.9999999',
-    'Django>=1.8,<1.11',
+    'Django>=1.8,<2.0',
 ]
 
 CLASSIFIERS = [
@@ -37,6 +36,7 @@ CLASSIFIERS = [
     'Framework :: Django :: 1.8',
     'Framework :: Django :: 1.9',
     'Framework :: Django :: 1.10',
+    'Framework :: Django :: 1.11',
     'Intended Audience :: Developers',
     'License :: OSI Approved :: BSD License',
     'Operating System :: OS Independent',
